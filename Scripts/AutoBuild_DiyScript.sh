@@ -1,10 +1,10 @@
 #!/bin/bash
 # https://github.com/Hyy2001X/AutoBuild-Actions
-# AutoBuild Module by Hyy2001
+# AutoBuild Module by Hy
 # AutoBuild DiyScript
 
 Diy_Core() {
-	Author=Hyy2001
+	Author=Hy
 	Default_Device=d-team_newifi-d2
 
 	INCLUDE_AutoUpdate=true
@@ -12,8 +12,8 @@ Diy_Core() {
 	INCLUDE_mt7621_OC1000MHz=true
 	INCLUDE_DRM_I915=true
 
-	INCLUDE_SSR_Plus=true
-	INCLUDE_Passwall=true
+	INCLUDE_SSR_Plus=false
+	INCLUDE_Passwall=false
 	INCLUDE_HelloWorld=false
 	INCLUDE_Bypass=false
 	INCLUDE_OpenClash=true
